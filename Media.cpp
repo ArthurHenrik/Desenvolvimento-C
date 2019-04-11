@@ -3,19 +3,14 @@
 using namespace std;
 
 int main (void){
-    int gordo[10];
+    int gordo;
 
-    int i=0;
     
-    for(int i=0;i<10; i++){
-       cin>>gordo[i];
+    for(int gordo=10;gordo>=0; gordo--){
+       cout<<gordo<<"\n";
        
     }
-    for(int i=0;i<10;i++){
-         int cubinhos[10];
-         cubinhos[0]=gordo[i];
-         cout<<gordo[i]<<"\n";
-         cout<<cubinhos[10]<<"\n";
-    }    
- }
-     
+//     for(int i=10;i>=1;i--){
+     //     cout<<gordo[i]<<"\n";
+         
+}
