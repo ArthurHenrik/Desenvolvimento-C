@@ -6,11 +6,11 @@ int main (void){
     int gordo[10];
 
     
-    for(int gordo=10;gordo>=1; gordo--){
-       cout<<gordo<<"\n";
+    for(int gordo=0;gordo<=10; gordo++){
+       cin>>gordo;
        
     }
-//     for(int i=10;i>=1;i--){
-     //     cout<<gordo[i]<<"\n";
-         
+    for(int gordo=10;gordo>=0;gordo--){
+         cout<<gordo<<"\n";
+    }
 }
