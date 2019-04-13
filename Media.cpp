@@ -6,7 +6,7 @@ int main (void){
     int gordo;
 
     
-    for(int gordo=10;gordo>=0; gordo--){
+    for(int gordo=10;gordo>=1; gordo--){
        cout<<gordo<<"\n";
        
     }
