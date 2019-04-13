@@ -3,7 +3,7 @@
 using namespace std;
 
 int main (void){
-    int gordo;
+    int gordo[10];
 
     
     for(int gordo=10;gordo>=1; gordo--){
