@@ -10,7 +10,7 @@ int main (void){
        cin>>gordo;
        
     }
-    for(int gordo=10;gordo>=1;gordo--){
+    for(int gordo=9;gordo>=0;gordo--){
          cout<<gordo<<"\n";
     }
 }
