@@ -5,7 +5,9 @@ using namespace std;
 
 int main(){
     int base[5],potencia;
-    cin>>base[3];
+    for(int i=0;i<=5;i++){
+        cin>>base[i];
+    }
     
     // cin>>expoente;
     
