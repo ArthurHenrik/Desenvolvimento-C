@@ -9,9 +9,17 @@ int main(){
         cin>>base[i];
     }
     
-    // cin>>expoente;
-    
     potencia = pow(base[3],2);
+    
+    for(int i=0;i<=2;i++){
+        cout<<base[i] <<"\n";
 
-    cout<<potencia <<"\n";
+    }
+    cout<<potencia<<"\n";
+    
+    for(int i=4;i<=5;i++){
+        cout<<base[i]<<"\n";
+    }
+    
+
 }  
