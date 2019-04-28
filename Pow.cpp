@@ -4,22 +4,18 @@
 using namespace std;
 
 int main(){
-    int base[5],potencia;
-    for(int i=0;i<=5;i++){
+    int base[4],potencia;
+    
+    for(int i=0;i<=4;i++){
         cin>>base[i];
     }
     
     potencia = pow(base[3],2);
-    
-    for(int i=0;i<=2;i++){
-        cout<<base[i] <<"\n";
 
-    }
-    cout<<potencia<<"\n";
-    
-    for(int i=4;i<=5;i++){
+    base[3]=potencia;
+
+
+    for(int i=0;i<=4;i++){
         cout<<base[i]<<"\n";
     }
-    
-
 }  
