@@ -4,15 +4,15 @@
 using namespace std;
 
 int main(){
-    int base[4],potencia;
+    int base[4];
     
     for(int i=0;i<=4;i++){
         cin>>base[i];
     }
     
-    potencia = pow(base[3],2);
+    base[2] = pow(base[2],2);
 
-    base[3]=potencia;
+    // base[3]=potencia;
 
 
     for(int i=0;i<=4;i++){
